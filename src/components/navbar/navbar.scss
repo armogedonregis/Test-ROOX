@@ -1,0 +1,14 @@
+.container_nav {
+    display: flex;
+    background-color: #BDBDBD;
+    width: 152px;
+    height: 980px;
+    padding-left: 10px;
+    .nav__sort {
+        margin-top: 1rem;
+    }
+    .buttonForSort {
+        margin-bottom: 1rem;
+        width: max-content;
+    }
+}

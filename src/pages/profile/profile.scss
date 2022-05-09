@@ -1,0 +1,35 @@
+.container__profile {
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    .form__container_btn {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .profile__header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .form__profile {
+        border: 1px solid #F3F3F3;
+        border-radius: 8px;
+        padding: 1.25rem 0.5rem 1.25rem 0.75rem;
+        .form__comment {
+            margin-top: 3px;
+            resize: none;
+            border: 1px solid #D8D8D8;
+            border-radius: 5px;
+            width: 420px;
+            height: 55px;
+        }
+        .form__comment__title {
+            font-size: 14px;
+            font-weight: 400;
+            .form__comment {
+            }
+        }
+    }
+}
+textarea:disabled {
+    background-color: #ffffff;
+}

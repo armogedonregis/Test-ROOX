@@ -1,0 +1,22 @@
+.titleField {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    .textField {
+        width: 13.1rem;
+        height: 1.3rem;
+        border: 1px solid #D8D8D8;
+        margin-top: 3px;
+        margin-bottom: 10px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        color: #000000;
+        opacity: 0.5;
+        outline: inherit;
+    }
+    .validate {
+        border: 1px solid #D91313;
+        outline: inherit;
+    }
+}

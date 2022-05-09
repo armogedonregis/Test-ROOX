@@ -1,0 +1,32 @@
+.buttonForSort {
+    background-color: #4B51EF;
+    border: #4B51EF;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.buttonForDescr {
+    color: #4B51EF;
+    font-size: 12px;
+    text-decoration: none;
+    width: 0;
+}
+
+.buttonForForm {
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 20px;
+    background-color: #AFAFAF;
+    border: #AFAFAF;
+    cursor:no-drop;
+}
+
+.active {
+    background-color: #52CF4F;
+    border: #52CF4F;
+    cursor: pointer;
+}
